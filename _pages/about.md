@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "Sobre mí"
 permalink: /about/
 header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+Soy un ingeniero de estructuras que usa Python para hacer cosas.
 
-Etc, etc, etc
+Actualmente explorando las posibilidades de la Ciencia de los Datos (Data Science) y el Aprendizaje Automático (Machine Learning) en el análisis estructural.
