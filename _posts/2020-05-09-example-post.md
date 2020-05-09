@@ -1,6 +1,6 @@
 ---
 title: "Example Project Post"
-date: 2020-05-08
+date: 2020-05-09
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/perceptron/percept.jpg"
