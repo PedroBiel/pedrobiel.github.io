@@ -15,18 +15,12 @@ Here's some raw text.
 Here's some MORE raw text
 
 
-"`python
+```python
 def hello_word():
     print('Hello World!')
 
 print(hello_word())
-"`
+```
 
     Hello World!
     None
-
-
-
-"`python
-
-"`
