@@ -8,7 +8,7 @@
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "Pedro Biel"
 title_separator          : "-"
 name                     : "Pedro Biel"
