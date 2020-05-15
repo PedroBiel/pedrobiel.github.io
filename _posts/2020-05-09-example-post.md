@@ -1,5 +1,5 @@
 ---
-title: "Example Project Post"
+title: "Example Project Post | Sample"
 date: 2020-05-09
 tags: [data wrangling, data science, messy data]
 header:
