@@ -8,7 +8,7 @@ excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 
-# Title
+# Title | My Awesome Site
 
 Here's some raw text.
 
