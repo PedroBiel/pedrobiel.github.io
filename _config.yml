@@ -51,8 +51,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : "true" # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 
 # SEO Related
 google_site_verification :
@@ -112,7 +112,7 @@ author:
   twitter          :
   vine             :
   weibo            :
-  xing             :
+  xing             : "https://www.xing.com/profile/Pedro_Biel"
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
@@ -261,3 +261,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
