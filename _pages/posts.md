@@ -4,5 +4,5 @@ permalink: /year-archive/
 title: "Posts"
 author_profile: true
 header:
-  image: "/images/codigo.png"
+  image: "/images/codigo.jpg"
 ---
