@@ -2,7 +2,7 @@
 title: "Sobre mí"
 permalink: /about/
 header:
-  image: "/images/Hosterholz.jpg"
+  image: "/images/Schwimmkran.jpg"
 ---
 
 Soy un ingeniero de estructuras que usa Python para hacer cosas.
