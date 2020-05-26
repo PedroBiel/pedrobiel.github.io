@@ -26,10 +26,10 @@ La conclusión es la siguiente:
 
 * Método “clásico” de análisis de datos:
 
-  >6 modelos * 40.000 líneas de datos = 240.000 líneas de datos para analizar-> entre 40 y 70 horas de trabajo.
+  >6 modelos * 40.000 líneas de datos = 240.000 líneas de datos para analizar → entre 40 y 70 horas de trabajo.
 
 * Método “Data Science” de análisis de datos:
 
-  >20 modelos * 140.000 líneas de datos = 2.800.000 líneas de datos para analizar -> unas 6 horas de trabajo.
+  >20 modelos * 140.000 líneas de datos = 2.800.000 líneas de datos para analizar → 6 horas de trabajo.
 
 Diez veces más de información analizada en la décima parte del tiempo. Un aumento del rendimiento del 100 por 1.
