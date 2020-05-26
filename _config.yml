@@ -87,7 +87,7 @@ author:
   name             : "Pedro Biel"
   avatar           : "/images/yo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
-  location         : "Zaragoza, España"
+  location         : "Alfindén, España"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
