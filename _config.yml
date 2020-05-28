@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "default",
 
 # Site Settings
 locale                   : "es-ES"
-title                    : "Pedro Biel"
+title                    : "Código para las estructuras"
 title_separator          : "-"
 name                     : "Pedro Biel"
 description              : "Data Science Portfolio"
