@@ -189,6 +189,10 @@ Si he optado por la opción de plotear la gráfica en el mismo notebook y ademá
 plt.savefig('grafica_espectro.png')
 ```
 
+Esta es la gráfica resultante:
+
+<img src = '/images/posts/2020-07-02-NCSE-02-grafica-espectro-respuesta-elastica/grafica_espectro.png'>
+
 ## Conclusión
 
 Con unas sencillas líneas de código he creado un documento **Jupyter Notebook** que obtiene la gráfica del espectro de respuesta elástica según la **Norma de Construcción Sismorresistente NCSE-02**. El texto [Markdown](https://www.markdownguide.org/) me permite incluir comentarios, fórmulas e imágenes que hacen referencia a la norma.
