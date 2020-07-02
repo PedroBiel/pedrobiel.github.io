@@ -27,7 +27,7 @@ Siendo:
 
 | Símbolo | Definición |
 | ------- | ---------- |
-| $\alpha(T)$ | Valor del espectro normalizado de respuesta elástica. |
+| $$\alpha(T)$$ | Valor del espectro normalizado de respuesta elástica. |
 | $T$ | Periodo propio del oscilador en segundos. |
 | $K$ | Coeficiente de contribución. |
 | $C$ | Coeficiente del terreno. |
