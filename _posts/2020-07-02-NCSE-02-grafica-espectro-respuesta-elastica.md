@@ -28,10 +28,10 @@ Siendo:
 | Símbolo | Definición |
 | ------- | ---------- |
 | $$\alpha(T)$$ | Valor del espectro normalizado de respuesta elástica. |
-| $T$ | Periodo propio del oscilador en segundos. |
-| $K$ | Coeficiente de contribución. |
-| $C$ | Coeficiente del terreno. |
-| $T_A, T_B$ | Periodos característicos del espectro de respuesta. |
+| $$T$$ | Periodo propio del oscilador en segundos. |
+| $$K$$ | Coeficiente de contribución. |
+| $$C$$ | Coeficiente del terreno. |
+| $$T_A, T_B$$ | Periodos característicos del espectro de respuesta. |
 
 ![gráfica](figura_2_2.png "Espectro de respuesta elástica")
 <img src = '/images/posts/2020-07-02-NCSE-02-grafica-espectro-respuesta-elastica/figura_2_2.png'>
