@@ -33,7 +33,6 @@ Siendo:
 | $$C$$ | Coeficiente del terreno. |
 | $$T_A, T_B$$ | Periodos característicos del espectro de respuesta. |
 
-![gráfica](figura_2_2.png "Espectro de respuesta elástica")
 <img src = '/images/posts/2020-07-02-NCSE-02-grafica-espectro-respuesta-elastica/figura_2_2.png'>
 
 ## Librerías
@@ -62,8 +61,6 @@ Por otro lado, puede que no me interese presentar la gráfica en el mismo notebo
 %matplotlib
 ```
 
-    Using matplotlib backend: Qt5Agg
-
 
 ## Datos de entrada
 
@@ -73,7 +70,7 @@ En mi caso de estudio estos son los datos de entrada.
 
 Palos de la Frontera, Huelva.
 
-### Periodo propio del oscilador $T$
+### Periodo propio del oscilador $$T$$
 
 El rango de los modos de vibración irá de 0 a 4 segundos. Para obtener una buena curva realizaré una medición cada 0,01 segundos, esto genera 401 puntos en el rango de estudio.
 
@@ -82,7 +79,7 @@ El rango de los modos de vibración irá de 0 a 4 segundos. Para obtener una bue
 T = np.linspace(0, 4, 401)  # [s]
 ```
 
-### Coeficiente de contribución $K$
+### Coeficiente de contribución $$K$$
 
 Según **anejo 1**.
 
@@ -91,7 +88,7 @@ Según **anejo 1**.
 K = 1.3
 ```
 
-### Coeficiente del terreno $C$
+### Coeficiente del terreno $$C$$
 
 **Tabla 2.1** para un terreno de **tipo III**.
 
@@ -100,7 +97,7 @@ K = 1.3
 C = 1.6
 ```
 
-### Periodo característico del espectro de respuesta $T_A$
+### Periodo característico del espectro de respuesta $$T_A$$
 
 Según apartado **2.3. Espectro de respuesta elástica**.
 
@@ -109,7 +106,7 @@ Según apartado **2.3. Espectro de respuesta elástica**.
 TA = K * C / 10  # [s]
 ```
 
-### Periodo característico del espectro de respuesta $T_B$
+### Periodo característico del espectro de respuesta $$T_B$$
 
 Según apartado **2.3. Espectro de respuesta elástica**.
 
@@ -118,13 +115,14 @@ Según apartado **2.3. Espectro de respuesta elástica**.
 TB = K * C / 2.5  # [s]
 ```
 
-## Espectro de respuesta elástica $\alpha(T)$
+## Espectro de respuesta elástica $$\alpha(T)$$
 
 
 ```python
 def espectro_respuesta_elastica(t, ta, tb, k, c):
     """
-    Espectro de respuesta elástica según la norma NCSE-02, apartado 2.3.
+    Espectro de respuesta elástica según la norma NCSE-02,
+    apartado 2.3.
 
     Inputs:
     -------
@@ -136,7 +134,8 @@ def espectro_respuesta_elastica(t, ta, tb, k, c):
 
     Output:
     -------
-    alfa : list; valor del espectro normalizado de respuesta elástica [].
+    alfa : list; valor del espectro normalizado de respuesta
+           elástica [].
     """
 
     alfa = []
@@ -173,8 +172,13 @@ xlabel = 'Periodo de oscilación $T$ [s]'
 ylabel = 'Espectro de respuesta elástica $\\alpha(T)$'
 title = 'Espectro de respuesta elástica'
 ax.plot(x, y)
-ax.set(xlim=xlim, ylim=ylim, xlabel=xlabel, ylabel=ylabel, title=title)
-#plt.savefig('grafica_espectro.png')  # Para guardar la imagen si se indica `%matplotlib inline`.
+ax.set(
+    xlim=xlim, ylim=ylim,
+    xlabel=xlabel, ylabel=ylabel,
+    title=title
+    )
+# Para guardar la imagen si se indica `%matplotlib inline`.
+#plt.savefig('grafica_espectro.png')
 plt.show()
 ```
 
@@ -213,10 +217,3 @@ Creo que puede ser una alternativa a tener en cuenta a la forma de trabajo usada
 
 
 <table><tr><th>Software</th><th>Version</th></tr><tr><td>Python</td><td>3.7.7 64bit [MSC v.1916 64 bit (AMD64)]</td></tr><tr><td>IPython</td><td>7.13.0</td></tr><tr><td>OS</td><td>Windows 10 10.0.18362 SP0</td></tr><tr><td>matplotlib</td><td>3.1.3</td></tr><tr><td>numpy</td><td>1.18.1</td></tr><tr><td colspan='2'>Thu Jul 02 13:16:01 2020 Hora de verano romance</td></tr></table>
-
-
-
-
-```python
-
-```
